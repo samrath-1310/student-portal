@@ -27,3 +27,11 @@ To build and run the student portal, the following software is required:
 - A C++ compiler such as MinGW or GCC
 - Git
 - A GitHub account for repository access
+
+## Setup Instructions
+1. Install a C++ compiler and verify that it is available from the terminal.
+2. Clone the student portal repository from GitHub.
+3. Open the project folder in Visual Studio Code.
+4. Open the VS Code terminal from the project directory.
+5. Compile the C++ source files using the installed compiler.
+6. Run the generated executable from the terminal.
