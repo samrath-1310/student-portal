@@ -10,3 +10,12 @@ The project demonstrates the development and version control of a student portal
 - C++
 - Git
 - GitHub
+
+## Features
+The student portal will provide functionality for managing student information and accessing different portal services.
+Planned features include:
+- Student authentication
+- Student profile management
+- Academic dashboard
+- Account settings
+- Student information management
