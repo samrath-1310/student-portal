@@ -52,6 +52,6 @@ To build and run the student portal, the following software is required:
 The project is organized into a few simple folders and files:
 - `.gitignore` – files that Git should ignore
 - `README.md` – information about the project
-- `src/` – contains the C++ source code
+- `app/` – contains the C++ source code
 - `include/` – contains header files
-- `docs/` – contains project-related notes and documentation
+- `docs/` – contains project-related notes
