@@ -22,9 +22,11 @@ void displayStudentInfo() {
 
 void displayCourses() {
     cout << "Enrolled Courses"<<endl;
-    cout << "1. Software Systems Development"<<endl;
-    cout << "2. Data Structures"<<endl;
-    cout << "3. Advanced Operating Systems"<<endl;
+    cout << "----------------"<<endl;
+    cout << "1. Data Structures and Algorithms - 6 credits"<<endl;
+    cout << "2. Software Systems Development - 4 credits"<<endl;
+    cout << "3. Advanced Operating Systems - 4 credits"<<endl;
+    cout << "4. Probability and Statistics - 2 credits"<<endl;
 }
 
 int main() {
