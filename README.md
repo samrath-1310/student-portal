@@ -47,3 +47,11 @@ To build and run the student portal, the following software is required:
 2. On Windows, the executable can be started with:
     .\student-portal.exe
 3. The application should display its available student portal functionality and allow the user to interact with the system through the terminal.
+
+## Project Structure
+The project is organized into a few simple folders and files:
+- `.gitignore` – files that Git should ignore
+- `README.md` – information about the project
+- `src/` – contains the C++ source code
+- `include/` – contains header files
+- `docs/` – contains project-related notes and documentation
