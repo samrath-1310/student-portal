@@ -27,6 +27,7 @@ int main() {
         attempts++;
         if (validateLogin(username, password)) {
             cout << "Login successful"<<endl;
+            cout << "Welcome to the student portal"<<endl;
             return 0;
         } 
         
@@ -34,5 +35,6 @@ int main() {
         cout << "Attempts remaining: " << maxattempts - attempts <<endl;
     }
     cout << "\nMaximum login attempts reached"<<endl;
+    cout << "Please contact the portal administrator if you need assistance"<<endl;
     return 0;
 }
