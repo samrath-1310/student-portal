@@ -12,9 +12,12 @@ void displayMenu() {
 
 void displayStudentInfo() {
     cout << "Student Information"<<endl;
+    cout << "-------------------"<<endl;
     cout << "Name: Student User"<<endl;
+    cout << "Student Rollno: STU101"<<endl;
     cout << "Program: Computer Science"<<endl;
     cout << "Semester: 1"<<endl;
+    cout << "Email: student@students.iiit.ac.in"<<endl;
 }
 
 void displayCourses() {
