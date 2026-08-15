@@ -41,3 +41,9 @@ To build and run the student portal, the following software is required:
 2. For a simple single-file program, the compilation command can be:
     g++ src/main.cpp -o student-portal.exe
 3. The generated executable can then be used to launch the application.
+
+## Running the Application
+1. After successful compilation, run the generated executable from the project terminal.
+2. On Windows, the executable can be started with:
+    .\student-portal.exe
+3. The application should display its available student portal functionality and allow the user to interact with the system through the terminal.
