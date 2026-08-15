@@ -19,3 +19,11 @@ Planned features include:
 - Academic dashboard
 - Account settings
 - Student information management
+
+## Requirements
+To build and run the student portal, the following software is required:
+- Windows 10 or later
+- Visual Studio Code
+- A C++ compiler such as MinGW or GCC
+- Git
+- A GitHub account for repository access
