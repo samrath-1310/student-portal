@@ -38,10 +38,12 @@ int main() {
         switch (choice) {
             case 1:
                 displayStudentInfo();
+                cout << "Returning to main menu"<<endl;
                 break;
 
             case 2:
                 displayCourses();
+                cout << "Returning to main menu"<<endl;
                 break;
 
             case 3:
@@ -49,7 +51,7 @@ int main() {
                 break;
 
             default:
-                cout << "Invalid choice. Please try again."<<endl;
+                cout << "Invalid choice. Please select 1, 2 or 3."<<endl;
         }
     } while (choice != 3);
 
