@@ -35,3 +35,9 @@ To build and run the student portal, the following software is required:
 4. Open the VS Code terminal from the project directory.
 5. Compile the C++ source files using the installed compiler.
 6. Run the generated executable from the terminal.
+
+## Compilation
+1. From the project directory, compile the application using the available C++ compiler.
+2. For a simple single-file program, the compilation command can be:
+    g++ src/main.cpp -o student-portal.exe
+3. The generated executable can then be used to launch the application.
