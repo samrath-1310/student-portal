@@ -64,3 +64,6 @@ The portal currently includes login, profile, dashboard, and settings modules.
 
 ## Version Notes
 The current development version contains the core portal, login, profile, dashboard, and settings features.
+
+## Maintenance Notes
+The main branch contains tested and integrated portal features.
