@@ -58,3 +58,6 @@ The project is organized into a few simple folders and files:
 
 ## Development Status
 The student portal is currently being developed and tested using Git feature branches.
+
+## Current Features
+The portal currently includes login, profile, dashboard, and settings modules.
