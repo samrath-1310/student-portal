@@ -25,6 +25,14 @@ void displayAttendance() {
     cout << "Total Classes: " << totalClasses << endl;
     cout << "Attendance: " << attendance << "%"<<endl;
 }
+void displaySemesterProgress(int semester) {
+    int totalSemesters = 4;
+    double progress = (semester * 100.0) / totalSemesters;
+
+    cout << "\n----Semester Progress----"<<endl;
+    cout << "Current Semester: " << semester << endl;
+    cout << "Program Progress: " << progress << "%"<<endl;
+}
 
 int main() {
     string studentName = "Student User";
@@ -33,6 +41,7 @@ int main() {
     displayDashboard(studentName, semester, cgpa);
     displayCourseSummary();
     displayAttendance();
+    displaySemesterProgress(semester);
 
     return 0;
 }
