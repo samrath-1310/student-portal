@@ -14,18 +14,25 @@ void toggleDarkMode(bool& enabled) {
     enabled = !enabled;
 }
 
+void displayLanguagePreference(const string& language) {
+    cout << "Language: " << language << endl;
+}
+
 int main() {
     bool notificationsEnabled = true;
     bool darkModeEnabled = false;
+    string language = "English";
 
     cout << "\nCurrent Settings:"<<endl;
     displaySettings(notificationsEnabled, darkModeEnabled);
+    displayLanguagePreference(language);
 
     toggleNotifications(notificationsEnabled);
     toggleDarkMode(darkModeEnabled);
 
     cout << "Settings after changes:"<<endl;
     displaySettings(notificationsEnabled, darkModeEnabled);
+    displayLanguagePreference(language);
 
     return 0;
 }
