@@ -2,13 +2,14 @@
 #include <string>
 using namespace std;
 
-void displayProfile(const string& name, const string& program, int semester, const string& rollno, const string& email) {
+void displayProfile(const string& name, const string& program, int semester, const string& rollno, const string& email, double cgpa) {
     cout << "\n------Student Profile------"<<endl;
     cout << "Name: " << name << endl;
     cout << "Program: " << program << endl;
     cout << "Semester: " << semester << endl;
     cout << "Rollno.: " << rollno << endl;
     cout << "Email: " << email << endl;
+    cout << "CGPA: " << cgpa << endl;
 }
 
 void updateSemester(int& semester, int newSemester) {
@@ -27,7 +28,8 @@ int main() {
     int semester = 1;
     string rollno = "STU101";
     string email = "student@students.iiit.ac.in";
-    displayProfile(name, program, semester, rollno, email);
+    double cgpa = 8.5;
+    displayProfile(name, program, semester, rollno, email, cgpa);
 
     int newSemester;
     cout << "\nEnter new semester: ";
@@ -35,6 +37,6 @@ int main() {
     updateSemester(semester, newSemester);
 
     cout << "\nUpdated Profile:"<<endl;
-    displayProfile(name, program, semester, rollno, email);
+    displayProfile(name, program, semester, rollno, email, cgpa);
     return 0;
 }
