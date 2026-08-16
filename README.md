@@ -61,3 +61,6 @@ The student portal is currently being developed and tested using Git feature bra
 
 ## Current Features
 The portal currently includes login, profile, dashboard, and settings modules.
+
+## Maintenance Notes
+Feature branches are merged into main only after their changes have been tested.
