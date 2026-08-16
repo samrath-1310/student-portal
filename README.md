@@ -55,3 +55,6 @@ The project is organized into a few simple folders and files:
 - `app/` – contains the C++ source code
 - `include/` – contains header files
 - `docs/` – contains project-related notes
+
+## Development Status
+The student portal is currently being developed and tested using Git feature branches.
