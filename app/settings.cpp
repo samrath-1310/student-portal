@@ -18,6 +18,12 @@ void displayLanguagePreference(const string& language) {
     cout << "Language: " << language << endl;
 }
 
+void resetSettings(bool& notificationsEnabled, bool& darkModeEnabled, string& language) {
+    notificationsEnabled = true;
+    darkModeEnabled = false;
+    language = "English";
+}
+
 int main() {
     bool notificationsEnabled = true;
     bool darkModeEnabled = false;
@@ -31,6 +37,13 @@ int main() {
     toggleDarkMode(darkModeEnabled);
 
     cout << "Settings after changes:"<<endl;
+    displaySettings(notificationsEnabled, darkModeEnabled);
+    displayLanguagePreference(language);
+
+    cout << "Resetting settings to default values."<<endl;
+    resetSettings(notificationsEnabled, darkModeEnabled, language);
+
+    cout << "Default Settings:"<<endl;
     displaySettings(notificationsEnabled, darkModeEnabled);
     displayLanguagePreference(language);
 
