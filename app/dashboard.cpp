@@ -15,6 +15,16 @@ void displayCourseSummary() {
     cout << "Advanced Operating Systems: In Progress"<<endl;
     cout << "Probability and Statistics: Completed"<<endl;
 }
+void displayAttendance() {
+    int classesAttended = 45;
+    int totalClasses = 48;
+    double attendance = (classesAttended * 100.0) / totalClasses;
+
+    cout << "\n----Attendance----"<<endl;
+    cout << "Classes Attended: " << classesAttended << endl;
+    cout << "Total Classes: " << totalClasses << endl;
+    cout << "Attendance: " << attendance << "%"<<endl;
+}
 
 int main() {
     string studentName = "Student User";
@@ -22,6 +32,7 @@ int main() {
     double cgpa = 8.5;
     displayDashboard(studentName, semester, cgpa);
     displayCourseSummary();
+    displayAttendance();
 
     return 0;
 }
